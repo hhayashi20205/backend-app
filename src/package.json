@@ -1,0 +1,15 @@
+{
+  "name": "express-mongodb-app",
+  "version": "1.0.0",
+  "description": "Express.js app with MongoDB integration and Nodemon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon -L index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15"
+  }
+}
